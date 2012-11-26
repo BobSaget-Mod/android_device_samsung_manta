@@ -81,3 +81,13 @@ TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_RECOVERY_UI_LIB := librecovery_ui_manta
 TARGET_RECOVERY_UPDATER_LIBS += librecovery_updater_manta
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/manta
+
+BOARD_SEPOLICY_DIRS := \
+	device/samsung/manta/sepolicy
+
+BOARD_SEPOLICY_UNION := \
+	file_contexts \
+	app.te \
+	device.te \
+	mediaserver.te \
+	surfaceflinger.te
