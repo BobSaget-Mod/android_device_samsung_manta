@@ -89,5 +89,6 @@ BOARD_SEPOLICY_UNION := \
 	file_contexts \
 	app.te \
 	device.te \
+	domain.te \
 	mediaserver.te \
 	surfaceflinger.te
