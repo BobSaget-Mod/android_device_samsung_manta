@@ -87,8 +87,11 @@ BOARD_SEPOLICY_DIRS := \
 
 BOARD_SEPOLICY_UNION := \
 	file_contexts \
+	genfs_contexts \
+	adbd.te \
 	app.te \
 	device.te \
 	domain.te \
+	file.te \
 	mediaserver.te \
 	surfaceflinger.te
