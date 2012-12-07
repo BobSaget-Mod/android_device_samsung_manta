@@ -1,1 +1,2 @@
+type mali0_device, dev_type, mlstrustedobject;
 type secmem_device, dev_type;

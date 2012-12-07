@@ -95,4 +95,5 @@ BOARD_SEPOLICY_UNION := \
 	gpsd.te \
 	file.te \
 	mediaserver.te \
-	surfaceflinger.te
+	surfaceflinger.te \
+	system.te

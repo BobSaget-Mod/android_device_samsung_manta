@@ -1,2 +1,2 @@
-allow appdomain graphics_device:chr_file rw_file_perms;
+allow appdomain mali0_device:chr_file rw_file_perms;
 allow appdomain ion_device:chr_file w_file_perms;
