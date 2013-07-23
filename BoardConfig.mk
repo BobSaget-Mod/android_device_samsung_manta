@@ -88,3 +88,19 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/manta
 
 # Support WebGL in WebKit
 ENABLE_WEBGL := true
+
+BOARD_SEPOLICY_DIRS := \
+	device/samsung/manta/sepolicy
+
+BOARD_SEPOLICY_UNION := \
+	file_contexts \
+	genfs_contexts \
+	adbd.te \
+	app.te \
+	device.te \
+	domain.te \
+	gpsd.te \
+	file.te \
+	mediaserver.te \
+	surfaceflinger.te \
+	system.te
